@@ -4,6 +4,7 @@ import '../controllers/game_controller.dart';
 import 'dice_panel.dart';
 import 'score_sheet.dart';
 
+// Main game screen widget
 class PlayScreen extends StatelessWidget {
   const PlayScreen({super.key});
 
@@ -17,6 +18,7 @@ class PlayScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: gameCtrl.isGameOver
+          // Show game over dialog if game is finished
           ? Center(
               child: AlertDialog(
                 title: const Text("Game Over"),

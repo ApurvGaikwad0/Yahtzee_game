@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../controllers/game_controller.dart';
 
+// Widget to display and interact with the dice.
 class DicePanel extends StatelessWidget {
   const DicePanel({super.key});
 
